@@ -58,11 +58,12 @@ text-decoration:none;
 	background:#E8F9FF;
 	border-radius:10px;
 }
-#projects {
+#projects ul{
 	display:flex;
 	justify-content: space-evenly;
 	margin-top:10px;
 }
+
 .proj{
 	width:150px;
 	height:60px;
@@ -72,4 +73,5 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 	border-radius:20px;
 	padding:50px;
 	color:floralwhite;
+	list-style:none;
 }
