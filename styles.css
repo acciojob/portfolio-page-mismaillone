@@ -1,2 +1,75 @@
 
 /* Your CSS Code here. */
+.header{
+	background:#E8F9FF;
+	width:100%;
+	height: 42vh;
+	border-radius:10px;
+}
+.photo{
+	padding:.5rem;
+	margin-left:20px;
+	width:180px;	
+}
+.header h1{
+ margin-left:20px;
+	color:;
+}
+.header a{
+text-decoration:none;
+	border-radius: 20px;
+	padding:10px 15px;
+	background: #AAB99A;
+	margin-left: 30px;
+	font-weight:400;
+	color:black;
+}
+.second{
+	width:100%:
+	margin-left:20px;
+	padding : 1rem;
+	background:#E8F9FF;
+	border-radius:10;
+}
+#skills{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	gap:40px
+}
+.skil{
+	padding: 10px;
+	text-transform: uppercase;
+	width:120px;
+	text-align:center;
+	border: 1px solid grey;
+	border-radius: 80px;
+	transition: .2s ease-in-out;
+}
+.skil:hover{
+	background : #AAB99A;
+	color:white;
+	cursor:pointer;
+}
+#projec {
+ width:100%:
+	margin-left:20px;
+	padding : 1rem;
+	background:#E8F9FF;
+	border-radius:10px;
+}
+#projects {
+	display:flex;
+	justify-content: space-evenly;
+	margin-top:10px;
+}
+.proj{
+	width:150px;
+	height:60px;
+	font-weight:600;
+	text-align:ceter;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	border-radius:20px;
+	padding:50px;
+	color:floralwhite;
+}
